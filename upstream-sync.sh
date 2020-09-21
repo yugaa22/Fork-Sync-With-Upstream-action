@@ -11,6 +11,10 @@ else
     UPSTREAM_REPO="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/${INPUT_UPSTREAM_REPOSITORY}.git"
 fi
 
+# setup git
+git config --global user.name ${GITHUB_ACTOR}
+git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
 # ensure target_branch is checked out
 if [ $(git branch --show-current) != "${INPUT_TARGET_BRANCH}" ]; then
     git checkout "${INPUT_TARGET_BRANCH}"
