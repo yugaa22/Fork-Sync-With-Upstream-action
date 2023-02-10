@@ -1,4 +1,4 @@
-# Github Action: Fork Sync With Upstream
+# Github Action: Fork Sync With Upstream 
 
 An action for forks! Automatically sync a branch on your fork with the latest commits from the original repo. Keep things up to date! (It actually works for syncing *any* repo branch with an upstream repo, but I was thinking about forks when I made it.)
 
