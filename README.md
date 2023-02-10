@@ -8,7 +8,7 @@ An action for forks! Automatically sync a branch on your fork with the latest co
 
 As with any Github Action, you must include it in a workflow for your repo to run. Place the workflow at `.github/workflows/my-sync-workflow.yaml` in the default repo branch. For more help, see [Github Actions documentation](https://docs.github.com/en/actions).
 
-### Input Variables
+### Input Variables  hiiii
 
 | Name                | Required?           | Default  | Example |
 | ------------------- |:------------------: | -------- | ----------
