@@ -28,6 +28,10 @@ jobs:
               git remote add upstream https://github.com/bdougie/Fork-Sync-With-Upstream-action.git
 
               # Fetch all the branches of that remote into remote-tracking branches
+              
+                git config --global user.email "yugaa22@gmail.com"
+                git config --global user.name "yugaa22"
+
 
                git fetch upstream
 
